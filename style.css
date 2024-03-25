@@ -19,6 +19,37 @@ header{
     padding: 10px;
 }
 
+.agendaExterno{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.agendaInterno{
+    
+    align-items: center;
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.lugarAgenda{
+    display: flex;
+}
+
+.classeAgenda{
+    display: flex;
+}
+
+.botaoAgenda{
+    display: flex;
+    justify-content: space-between;
+}
+
 div{
     padding: 10px;
     width: 100%;
@@ -79,3 +110,6 @@ main{
     width: 50px;
     height: 50px;
 }
+
+
+
